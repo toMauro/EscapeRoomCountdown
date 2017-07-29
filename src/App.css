@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  padding-bottom:70px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  /*background-color: #286DA8;*/
+  background: linear-gradient(to right, #186177 , #5bc0de);
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h2 {
+    height: 75%;
+    font-size: 55px;
+    font-family: Bookman;
+}
+
+.App-header h3 {
+    height: 25%;
+    font-size: 35px;
+    font-family: Bookman;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.chartsRow {
+    margin-top: 30px;
+    height: 350px;
+}
+
+.btn-info:hover {
+    background-color: #186177 !important;
+}
+
+.btn-info {
+    background-color: #5bc0de;
+}
+
+.newTriggerRow{
+    margin-bottom: 20px;
+}
+
+.table-success, .table-success > th, .table-success > td{
+    background-color: #186177 !important;
+    color: white;
+}
+
+.table-success:hover, .table-success > th:hover, .table-success > td:hover{
+    background-color: #5bc0de !important;
+    color: white;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
