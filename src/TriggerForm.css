@@ -1,0 +1,29 @@
+#modal-header {
+    background-color: rgba(150, 21, 29, 1);
+    color: #FFFFFF;
+}
+
+#modal-header > button {
+    color: #FFFFFF;
+}
+
+#trigger-box {
+    border: 1px solid #c8cbd1;
+    width: 90%;
+    margin: 10pt auto;
+    padding: 10pt;
+    background-color: #f2f3f4;
+}
+
+.trigger-logo {
+    width: 95%;
+}
+
+.trigger-left {
+    text-align: center;
+    font-weight: bold;
+}
+
+#credit-card-header {
+    font-weight: bold;
+}
