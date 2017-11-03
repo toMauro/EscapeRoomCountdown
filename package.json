@@ -2,7 +2,7 @@
   "name": "reactSampleCode",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tomauro.github.io/reactEscapeRoom",
+  "homepage": "http://tomauro.github.io/EscapeRoomCountdown",
   "dependencies": {
     "body-parser": "~1.4.2",
     "bootstrap": "^4.0.0-alpha.6",
