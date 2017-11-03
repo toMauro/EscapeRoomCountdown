@@ -10,7 +10,7 @@ export default class Countdown extends Component {
     render() {
         return (
             <div className="App">
-                <ReactCountdownClock seconds={120}
+                <ReactCountdownClock seconds={2400}
                                      color="#000"
                                      alpha={0.9}
                                      size={300}
