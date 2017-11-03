@@ -10,21 +10,6 @@ const Countdown = React.createClass({
     render () {
         return (
             <div className="App">
-                <ReactCountdownClock seconds={10}
-                                     color="#000"
-                                     alpha={0.9}
-                                     size={300}
-                                     onComplete={App.timeExpired} />
-            </div>
-        );
-    }
-});
-
-const Countdown2 = React.createClass({
-
-    render () {
-        return (
-            <div className="App">
                 <ReactCountdownClock seconds={2400}
                                      color="#000"
                                      alpha={0.9}
@@ -34,8 +19,6 @@ const Countdown2 = React.createClass({
         );
     }
 });
-
-
 
 class App extends Component {
 
