@@ -25,7 +25,7 @@ const Countdown2 = React.createClass({
     render () {
         return (
             <div className="App">
-                <ReactCountdownClock seconds={60}
+                <ReactCountdownClock seconds={2400}
                                      color="#000"
                                      alpha={0.9}
                                      size={300}
