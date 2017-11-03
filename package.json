@@ -2,6 +2,7 @@
   "name": "reactSampleCode",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://tomauro.github.io/reactEscapeRoom",
   "dependencies": {
     "body-parser": "~1.4.2",
     "bootstrap": "^4.0.0-alpha.6",
@@ -10,10 +11,11 @@
     "jquery": "^3.2.1",
     "method-override": "~2.0.2",
     "mysql": "^2.14.0",
-    "promise": "^8.0.1",
+    "promise": "^8.0.1"
     "react": "^15.6.1",
     "react-addons-css-transition-group": "^15.6.0",
     "react-addons-transition-group": "^15.6.0",
+    "react-countdown-clock": "^2.0.0",
     "react-dom": "^15.6.1",
     "react-scripts": "0.9.5",
     "reactstrap": "^4.8.0",
@@ -26,6 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   }
 }
